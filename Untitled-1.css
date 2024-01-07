@@ -1,0 +1,262 @@
+/* Стили для заголовка */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(шапка.png);
+}
+
+/* Стили для ссылок в навигации */
+.navigation a {
+    margin-right: 5px; /* Отступ между ссылками */
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 115%;
+    white-space: nowrap; /* Запрет переноса на новую строку */
+    vertical-align: middle; /* Выравнивание по вертикали */
+    transition: transform 0.3s, color 0.3s; 
+}
+
+/* Стили для изображения с классом "i" */
+img.i {
+    margin-right: 60%;
+}
+
+img.a {
+    margin-left: -30%;
+    border: 2px solid #000;
+    border-radius: 2px;
+}
+
+
+/* Дополнительные стили для выравнивания по центру */
+.centered {
+    display: inline-block;
+}
+
+/* Стили для блока навигации */
+.navigation {
+    left: 100%;
+    white-space: nowrap; /* Запрет переноса на новую строку */
+    margin-top: -10%;
+    bottom: 50%;
+    transform: translate(-140%, 50%);
+}
+
+.navigation a:hover {
+    transform: scale(1.2); /* Увеличение размера при наведении */
+    color: black; /* Изменение цвета текста на черный при наведении */
+}
+
+p.test{
+ color: white;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5); 
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.5em;
+}
+.danil{
+    text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  .sedauanoch1{ /*фото*/
+    padding: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .danil1{   /*фото*/
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 40%;
+    border: 2px solid #000;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .danil1:hover {
+    transform: scale(1.2); /* Увеличьте значение, чтобы увеличить масштаб */
+    box-shadow: 0 0 10px 5px rgba(4, 255, 0, 0.7); 
+  }
+
+  p {
+    margin: 5px 0;     /*фото*/   
+    font-family: Arial, sans-serif; 
+    text-align: center; /*фото*/
+}
+
+H1 {
+    margin: 5px 0;  /*фото*/    
+    font-family: Arial, sans-serif; 
+    text-align: center; /*фото*/
+    font-size: 19px; /*фото*/
+}
+.image-container img {
+    display: inline-block; /* Устанавливаем изображения в ряд */
+    max-width: 100%; /* Обеспечиваем максимальную ширину изображения в пределах контейнера */
+    height: auto; /* Сохраняем пропорции при изменении ширины */
+  }
+
+  .image-container {
+    white-space: nowrap; /* Запрет переноса строк внутри контейнера */
+  }
+.boarder{
+    border-radius: 50%;
+}
+
+
+.block_size{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.block_img img:hover {
+  transform: scale(1.1);
+}
+
+.tesla{
+    margin-top: 10%;
+}
+  
+  footer {
+    background-color: #468d2a;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info img {
+    margin-right: 10px;
+  }
+  
+  .center-section {
+    text-align: center;
+  }
+  
+  .right-section img {
+    width: 30px; /* Регулировка размера иконок соц. сетей */
+    transition: transform 0.5s ease-in-out;
+    margin-left: 10px;
+  }
+  
+  .right-section img:hover {
+    opacity: 0.8; /* При наведении уменьшаем прозрачность */
+    transform: scale(1.2); /* Увеличьте значение, чтобы увеличить масштаб */
+  }
+.login{
+    float: right;
+    margin-top: -1.6%;
+}
+
+.login1{
+  float: right;
+  margin-top: 1.6%;
+}
+.login-container {
+    width: 300px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #336325;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(233, 230, 230);
+}
+
+.login-container1 {
+  width: 300px;
+  padding: 20px;
+  margin-left: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #336325;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(233, 230, 230);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #269433;
+    color: #fff;
+    margin-top: 1%;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #228f39;
+}
+
+.post{
+    margin-top: 100%;
+}
+section {
+    margin-bottom: 100px; /* Измените значение, чтобы увеличить или уменьшить отступ */
+}
